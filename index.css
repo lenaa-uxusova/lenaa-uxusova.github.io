@@ -1,0 +1,108 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin:0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1140 px;
+    padding: 0 15 px;
+    margin: 0 auto;
+}
+
+/* HEADER */
+
+.header{
+    width:100 %;
+    color: white;
+    padding: 20 px;
+    background: #FF4500;
+	box-sizing: border-box;
+}
+
+.menu-item{
+    list-style: none;
+}
+
+.menu-link{
+    color: white;
+    text-decoration: none;
+}
+
+/* Дополнительно */
+
+.menu-link{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* BANNER */
+
+.banner-section{
+    padding: 100 px 0;
+    background: url(img/banner-bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-title{
+    font-size: 48 px;
+}
+.banner-title, .banner-description{
+    text-align: center;
+    color: white;
+}
+
+/* CARDS */
+
+.cards-section{
+    padding: 50 px 0 px;
+}
+
+.cards-title, .cards-description{
+    color: #8B0000;
+    text-align: center;
+}
+
+.card{
+    padding: 30 px;
+    margin-top: 25 px;
+    width: 25 %;
+    background: white;
+    box-shadow: 0 px 2 px 7 px 0 px #9e90ff;
+    text-align: center;
+}
+
+.card-link{
+    text-decoration: none;
+    color: white;
+}
+
+.card-button{
+    text-align: center;
+    background: #FFA500;
+    padding: 10 px 100 px;
+    border-radius: 10 px;
+}
+
+.card-title, .card-text{
+    margin-bottom: 20 px;
+}
+
+/* Дополнительно */
+
+.card-button{
+    cursor: pointer;
+}
+
+/* FOOTER */
+
+.footer{
+    background: url(img/footer-bg.jpg);
+    background-size: cover;
+    padding: 100 px 0 px;
+}
+
+.copyright{
+    color: white;
+}
